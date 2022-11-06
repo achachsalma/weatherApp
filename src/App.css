@@ -1,0 +1,31 @@
+.weatherbg{
+  background: url("https://www.accuweather.com/images/hero/4/1440x450.jpg");
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading{
+color: white ;
+font-size: 700;
+}
+
+.weatherResultBox{
+  margin: auto;
+  width: 500px;
+height: 300px;
+}
+.weathericon{
+  width:100px ;
+  height: 100px;
+  margin-top: 2rem;
+}
+.weathercity{
+  font-size: 35px;
+
+}
+.weathertemp{
+  font-size: 55px;
+  font-weight: 400;
+}
